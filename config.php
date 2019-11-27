@@ -1,8 +1,8 @@
 <?php
-	define('HOST','localhost');
-	define('USER','root');
-	define('PASS','root');
-	define('BASE','inparty');
+	define('HOST','us-cdbr-iron-east-05.cleardb.net');
+	define('USER','bb3e300bae200c');
+	define('PASS','8e5aefad');
+	define('BASE','heroku_13b2bb614c9c900');
 	
 	$conn = new mysqli(HOST,USER,PASS,BASE);
 	
