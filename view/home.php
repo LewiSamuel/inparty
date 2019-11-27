@@ -15,7 +15,7 @@ while($row = $res_eventos->fetch_object()){
 
 <article class="col-sm-12 col-md-4" >
 	<article class="card card-event">
-	<img src="./img/card-party.jpg" class="card-img-top" alt="...">
+	<img src="./img/card-party-2.jpg" class="card-img-top" alt="...">
 		<div class="card-body">
 		<h5 class="card-title">
 			<a href="/evento.php?id=<?php echo $row->id; ?>">

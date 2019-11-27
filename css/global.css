@@ -5,8 +5,8 @@ body{
 .form-login{
     margin: auto;
     border: 1px solid #00dbf9;
-    padding: 22px;
-    background-color: #171616;
+    padding: 43px 33px;
+    background-color: #1b1b1b;
 }
 .header-login{
 	width: 100%;
@@ -15,7 +15,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-self: center;
-    /*background-image: url("../img/background-landing.jpg");*/
+    background-image: url("/img/background-landing.jpg");
     background-size: cover;
 }
 

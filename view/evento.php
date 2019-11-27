@@ -16,7 +16,7 @@
 while($row = $res_eventos->fetch_object()){
  ?>
 
-    <img src="/img/card-party.jpg" alt="back" style="width: 100%; height: 400px; object-fit:cover;">
+    <img src="/img/card-party-2.jpg" alt="back" style="width: 100%; height: 400px; object-fit:cover;">
 
     <section class=" text-color  col-sm-12 col-md-8" style="margin: auto;">
     <br>
@@ -59,7 +59,7 @@ while($row = $res_eventos->fetch_object()){
     padding: 30px;
     border-bottom: 1px solid #3c3c3c;
     background-color: #272727;">
-    <small style="float: right;"><?php echo date("d/m/Y", strtotime($rowEvento->data)); ?></small>
+    <small style="float: right;"><?php echo date("d M Y", strtotime($rowEvento->data)); ?></small>
     <p class='form-group-<?php echo $i; ?>'><?php echo $rowEvento->postagem ?></p>
 
     <?php if($row->id_usuario == $_SESSION['id_usuario']){ ?>
