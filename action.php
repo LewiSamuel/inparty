@@ -30,5 +30,5 @@
 
 ?>
 <section class="text-center col-sm-12 col-md-6"  style="margin: auto;">
-	<a href="/home.php" class="btn btn-primary">Continuar</a>
+	<a href="/<?php if(isset($_SESSION['id_usuario'])) echo "home.php"; ?>" class="btn btn-primary">Continuar</a>
 </section>
