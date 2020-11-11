@@ -1,6 +1,6 @@
 <?php
   if(!isset($_SESSION['id_usuario']))
-  header("Location: /");
+  @header("Location: /");
 ?>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <a class="navbar-brand text-color" href="/"><b>InParty</b></a>

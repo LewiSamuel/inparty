@@ -10,7 +10,7 @@
 			break;
 
 		case 'newEvento':
-			require_once "/action/newEvento.php";
+			require_once "./action/newEvento.php";
 			break;
 
 		case 'loginUsuairo':
