@@ -9,8 +9,8 @@
 	if($res_usuario_login->num_rows == 1){
 		while($row = $res_usuario_login->fetch_object()){
 			$_SESSION['id_usuario'] = $row->id;
-			$_SESSION['nome'] = $row->nome;
-			$_SESSION['email'] = $row->email;
+			$_SESSION['nome'] = $row->Nome;
+			$_SESSION['email'] = $row->Email;
 			header("Location: ../home.php");
 		}
 	}else{
