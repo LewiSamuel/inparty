@@ -18,6 +18,7 @@
 
 <button type="submit" class="btn bg-color">Login</button>
 <a href="./newUsuario.php" class="btn text-color btn-link">Cadastra-se</a>
+<a href="./recovery.php" class="btn text-color btn-link"><small>Recuperar Senha</small></a>
 </form>
 
 
